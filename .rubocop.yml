@@ -1,0 +1,9 @@
+Documentation:
+  Enabled: false
+
+Metrics/MethodLength:
+  CountComments: false
+  Max: 5
+
+Layout/CaseIndentation:
+  Enabled: false

@@ -15,3 +15,10 @@
     This reduces the surface area of anything that you need to monitor and protect.
 
     * `ruby vpc/delete_default.rb <region>`
+
+---
+
+## Contributing
+
+  * Styling is checked by Rubocop
+    * Run `rubocop` from the root directory
