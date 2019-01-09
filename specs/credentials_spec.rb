@@ -6,8 +6,7 @@ require 'aws-sdk'
 
 describe Credentials do
   it 'can get the AWS profile name' do
-    profile = Credentials.profile_name
-    result = S3.list(profile, 'us-east-1')
-    expect(result).not_to be_empty
+    profile_name = Credentials.profile_name
+    expect(profile_name).is_a? String
   end
 end

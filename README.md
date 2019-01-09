@@ -7,11 +7,15 @@
   * Where usage notes below include bracketed strings, replace them with actual values.
     * e.g. replace `<region>` with `ap-south-1`
 
+## Credentials
+
+  * Current profile in use
+  
+    * `ruby scripts/credentials/current_profile.rb`
+
 ## S3
 
   * List bucket names 
-  
-    A simple wrapper over S3 list-buckets
   
     * `ruby scripts/s3/list_buckets.rb`
 
