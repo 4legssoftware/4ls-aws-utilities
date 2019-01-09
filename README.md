@@ -13,7 +13,7 @@
   
     A simple wrapper over S3 list-buckets
   
-    * `ruby scripts/s3.rb`
+    * `ruby scripts/s3/list_buckets.rb`
 
 ## VPC
 

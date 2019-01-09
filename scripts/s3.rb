@@ -14,8 +14,3 @@ class S3
     s3_list.map { |bucket| bucket[:name] }
   end
 end
-
-print "\n\n"
-buckets = S3.list_buckets_for('us-east-1')
-buckets.each { |bucket| print "#{bucket}\n" }
-print "\n\n"
