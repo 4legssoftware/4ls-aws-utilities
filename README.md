@@ -14,7 +14,7 @@
     It's good practice to delete the default VPC in regions that you don't actively host anything in.
     This reduces the surface area of anything that you need to monitor and protect.
 
-    * `ruby vpc/delete_default.rb <region>`
+    * `ruby src/vpc/delete_default.rb <region>`
 
 ---
 
