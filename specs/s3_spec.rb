@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require_relative '../scripts/entials'
-require_relative '../scripts/b.rb'
+require_relative '../app/credentials'
+require_relative '../app/s3'
 
 describe S3 do
   it 'can list bucket names' do

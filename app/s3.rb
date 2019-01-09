@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../scripts/'
+require_relative 'credentials'
 require 'aws-sdk'
 
 class S3
