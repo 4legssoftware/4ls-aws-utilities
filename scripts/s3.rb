@@ -8,9 +8,14 @@ class S3
     s3 = Aws::S3::Client.new(profile: profile, region: region)
     s3.list_buckets
   end
+
+  def self.list_buckets_for(region)
+    s3_list = list(Credentials.profile_name, region)[:buckets]
+    s3_list.map { |bucket| bucket[:name] }
+  end
 end
 
 print "\n\n"
-profile_name = Credentials.profile_name
-buckets = S3.list(profile_name, 'us-east-1')
-print "#{buckets}\n\n"
+buckets = S3.list_buckets_for('us-east-1')
+buckets.each { |bucket| print "#{bucket}\n" }
+print "\n\n"
