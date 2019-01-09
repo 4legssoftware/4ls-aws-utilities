@@ -7,6 +7,14 @@
   * Where usage notes below include bracketed strings, replace them with actual values.
     * e.g. replace `<region>` with `ap-south-1`
 
+## S3
+
+  * List bucket names 
+  
+    A simple wrapper over S3 list-buckets
+  
+    * `ruby scripts/s3.rb`
+
 ## VPC
 
   * **WIP** - *Not yet implemented* - Delete default VPC in unused regions 
