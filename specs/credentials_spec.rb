@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require_relative '../scripts/credentials'
-require_relative '../scripts/s3.rb'
+require_relative '../scripts/entials'
+require_relative '../scripts/b.rb'
 require 'aws-sdk'
 
 describe Credentials do
