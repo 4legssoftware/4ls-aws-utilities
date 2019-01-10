@@ -6,6 +6,7 @@ require 'aws-sdk'
 
 describe Credentials do
   it 'can get the AWS profile name' do
+    allow(System).to receive(:log)
     profile_name = Credentials.profile_name
     expect(profile_name).is_a? String
   end
