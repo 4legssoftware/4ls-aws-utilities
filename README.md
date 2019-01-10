@@ -17,8 +17,10 @@
 
   * List bucket names 
   
-    * `ruby scripts/s3/list_buckets.rb`
+    Note: region doesn't matter for listing buckets
 
+    * `ruby scripts/s3/list_buckets.rb`
+    
 ## VPC
 
   * **WIP** - *Not yet implemented* - Delete default VPC in unused regions 
