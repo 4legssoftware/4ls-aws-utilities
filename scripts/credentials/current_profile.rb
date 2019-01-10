@@ -2,5 +2,4 @@
 
 require_relative '../../app/credentials'
 
-print "\n\nCurrent Profile: #{Credentials.profile_name}"
-print "\n\n"
+Credentials.profile_name
