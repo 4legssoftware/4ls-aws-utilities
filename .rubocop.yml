@@ -1,9 +1,5 @@
-Documentation:
-  Enabled: false
+AllCops:
+  NewCops: enable
 
-Metrics/MethodLength:
-  CountComments: false
-  Max: 5
-
-Layout/CaseIndentation:
+Style/Documentation:
   Enabled: false

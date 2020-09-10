@@ -2,7 +2,7 @@
 
 require_relative '../app/credentials'
 require_relative '../app/s3'
-require 'aws-sdk'
+require 'aws-sdk-s3'
 
 describe Credentials do
   it 'can get the AWS profile name' do

@@ -2,6 +2,6 @@
 
 source 'https://rubygems.org'
 
-gem 'aws-sdk'
+gem 'aws-sdk-s3'
 gem 'rspec'
 gem 'rubocop'

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'aws-sdk'
+require 'aws-sdk-s3'
 
 class S3Adapter
   def initialize(profile)

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'adapters/system.rb'
+require_relative 'adapters/system'
 
 class Credentials
   def self.profile_name

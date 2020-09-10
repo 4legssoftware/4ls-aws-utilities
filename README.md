@@ -10,6 +10,9 @@ chores.
   * Where usage notes below include bracketed strings, replace them with actual 
   values.
     * e.g. replace `<region>` with `ap-south-1`
+  * For scripts requiring access to 1Password, you must already be logged in
+    * A convenient helper is to add a command line alias to your profile
+    * e.g. `alias myvault='eval $(op signin myvault)'` for the vault "myvault"
 
 ## Credentials
 
