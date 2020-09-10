@@ -3,5 +3,6 @@
 source 'https://rubygems.org'
 
 gem 'aws-sdk-s3'
+gem 'rake'
 gem 'rspec'
 gem 'rubocop'
