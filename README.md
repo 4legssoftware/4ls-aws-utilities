@@ -1,18 +1,25 @@
 # AWS Utilities
 
-This is just a collection of notes and convenience scripts for various AWS 
-chores.
+A collection of notes and convenience scripts for various AWS chores.
 
-### Conventions
+## AWS Login Required
 
-  * All scripts assume your `AWS_PROFILE` environment variable is set and has 
-  the necessary permissions.
-  * Where usage notes below include bracketed strings, replace them with actual 
-  values.
-    * e.g. replace `<region>` with `ap-south-1`
-  * For scripts requiring access to 1Password, you must already be logged in
-    * A convenient helper is to add a command line alias to your profile
-    * e.g. `alias myvault='eval $(op signin myvault)'` for the vault "myvault"
+* All scripts assume your `AWS_PROFILE` environment variable is set and has 
+the necessary permissions.
+
+### Updating your AWS Session Token (utilizing 1Password)
+ 
+* Authenticate with 1Password
+  * `rake "mfa[<op-item>,<op-vault>]`
+  * This will require you to then type in your password unless a valid OP_SESSION ENV var is found
+  * To use a default item, set as an environment variable `OP_ITEM`
+  * To use a default vault, set as an environment variable `OP_VAULT`
+
+## Conventions
+
+* Where usage notes below include bracketed strings, replace them with actual 
+values.
+* e.g. replace `<region>` with `ap-south-1`
 
 ## Credentials
 
